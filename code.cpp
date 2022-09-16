@@ -8,8 +8,6 @@ bool checkArrays(int arr1[], int arr2[],
 
 	if (n != m)
 		return false;
-
-	// Sort both arrays
 	sort(arr1, arr1 + n);
 	sort(arr2, arr2 + m);
 
