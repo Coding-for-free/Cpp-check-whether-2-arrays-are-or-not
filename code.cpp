@@ -1,4 +1,3 @@
-// C++ program to implement the approach
 
 #include <bits/stdc++.h>
 using namespace std;
