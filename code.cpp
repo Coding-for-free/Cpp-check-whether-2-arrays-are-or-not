@@ -6,7 +6,6 @@ bool checkArrays(int arr1[], int arr2[],
 				int n, int m)
 {
 	// If lengths of array are not equal
-	// means array are not equal
 	if (n != m)
 		return false;
 
