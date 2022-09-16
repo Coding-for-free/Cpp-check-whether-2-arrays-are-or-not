@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to check if both arrays are equal
 bool checkArrays(int arr1[], int arr2[],
 				int n, int m)
 {
