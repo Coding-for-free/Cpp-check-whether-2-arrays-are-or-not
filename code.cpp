@@ -11,16 +11,12 @@ bool checkArrays(int arr1[], int arr2[],
 	sort(arr1, arr1 + n);
 	sort(arr2, arr2 + m);
 
-	// Linearly compare elements
 	for (int i = 0; i < n; i++)
 		if (arr1[i] != arr2[i])
 			return false;
-
-	// If elements are same
 	return true;
 }
 
-// Driver Code
 int main()
 {
 	int arr1[] = { 1, 2, 3, 4, 5 };
@@ -28,7 +24,6 @@ int main()
 	int N = sizeof(arr1) / sizeof(int);
 	int M = sizeof(arr2) / sizeof(int);
 
-	// Function call
 	if (checkArrays(arr1, arr2, N, M))
 		cout << "Equal";
 	else
